@@ -66,6 +66,7 @@ nav{
 .btn-ghost{color:var(--fg); background:var(--card); border-color:var(--line); backdrop-filter:blur(10px)}
 .btn-ghost:hover{background:rgba(255,255,255,.09); transform:translateY(-2px)}
 .btn-sm{padding:9px 16px; font-size:13.5px; border-radius:11px}
+.btn-static{cursor:default; user-select:text}
 .nav-cta{margin-left:8px}
 
 /* hero */
@@ -207,10 +208,10 @@ footer{border-top:1px solid var(--line); padding:44px 0 60px; margin-top:40px}
     <div class="nav-links">
       <a href="#features">功能</a>
       <a href="#styles">界面</a>
-      <a href="#download">下载</a>
+      <a href="#download">获取</a>
       <a href="#about">关于</a>
     </div>
-    <a class="btn btn-primary btn-sm nav-cta" href="#download">立即下载</a>
+    <a class="btn btn-primary btn-sm nav-cta" href="#download">获取方式</a>
   </div>
 </nav>
 
@@ -222,11 +223,11 @@ footer{border-top:1px solid var(--line); padding:44px 0 60px; margin-top:40px}
     <div class="cta">
       <a class="btn btn-primary" href="#download">
         <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3v12m0 0 5-5m-5 5-5-5M4 20h16"/></svg>
-        下载 Windows 版
+        获取 FileOS
       </a>
-      <a class="btn btn-ghost" href="https://github.com/git-wjd-xgzx/FileOS" target="_blank" rel="noopener">GitHub 上的源代码</a>
+      <a class="btn btn-ghost" href="#features">看看能做什么</a>
     </div>
-    <p class="meta">Windows 10 / 11 · 89 MB · 免管理员安装</p>
+    <p class="meta">Windows 10 / 11 · 89 MB · 免管理员安装 · 仅校内分发</p>
 
     <div class="shot">
       <div class="bar"><i></i><i></i><i></i><span>FileOS — 初三9班</span></div>
@@ -308,9 +309,9 @@ footer{border-top:1px solid var(--line); padding:44px 0 60px; margin-top:40px}
 
 <section id="download">
   <div class="wrap">
-    <p class="eyebrow">Download</p>
-    <h2>下载 FileOS</h2>
-    <p class="lead">桌面端功能最完整；手机端用于随堂加分，数据通过云端备份互通。</p>
+    <p class="eyebrow">Get it</p>
+    <h2>如何获取</h2>
+    <p class="lead">FileOS 不对外公开下载。所有版本均由管理员或本班老师统一分发，当面安装、当面登记。</p>
     <div class="dl">
       <div class="dl-card main reveal">
         <div class="dl-head">
@@ -323,7 +324,7 @@ footer{border-top:1px solid var(--line); padding:44px 0 60px; margin-top:40px}
           <li>免管理员安装，装到当前用户目录</li>
           <li>内置自动更新检查</li>
         </ul>
-        <a class="btn btn-primary" href="https://github.com/git-wjd-xgzx/FileOS/releases/latest" target="_blank" rel="noopener">下载安装包</a>
+        <span class="btn btn-primary btn-static">联系管理员 / 本班老师获取</span>
       </div>
       <div class="dl-card reveal">
         <div class="dl-head">
@@ -336,7 +337,7 @@ footer{border-top:1px solid var(--line); padding:44px 0 60px; margin-top:40px}
           <li>可直连云端备份与恢复</li>
           <li>APK 直接安装，无需商店</li>
         </ul>
-        <a class="btn btn-ghost" href="https://git-wjd-xgzx.github.io/fileos-web/android/FileOS-android-1.3.apk">下载 APK</a>
+        <span class="btn btn-ghost btn-static">联系管理员 / 本班老师获取</span>
       </div>
       <div class="dl-card reveal">
         <div class="dl-head">
@@ -349,17 +350,17 @@ footer{border-top:1px solid var(--line); padding:44px 0 60px; margin-top:40px}
           <li>需自签或 TestFlight 安装</li>
           <li>暂无公开下载渠道</li>
         </ul>
-        <a class="btn btn-ghost" href="https://github.com/git-wjd-xgzx/FileOS" target="_blank" rel="noopener">联系作者获取</a>
+        <span class="btn btn-ghost btn-static">联系管理员 / 本班老师获取</span>
       </div>
     </div>
 
     <h2 style="margin-top:86px; font-size:clamp(22px,3vw,30px)">三步装好</h2>
     <div class="steps">
-      <div class="step reveal"><b>下载安装包</b><p>点上面的下载按钮，得到 FileOS-27.3.3-Setup.exe。</p></div>
-      <div class="step reveal"><b>直接运行</b><p>无需管理员权限，装到 %LOCALAPPDATA%，不写注册表以外的系统目录。</p></div>
+      <div class="step reveal"><b>找管理员领取</b><p>向管理员或本班老师申请，由对方提供对应版本的安装包。</p></div>
+      <div class="step reveal"><b>直接运行</b><p>无需管理员权限，装到 %LOCALAPPDATA%，不写系统目录。</p></div>
       <div class="step reveal"><b>选班登录</b><p>首次启动选择班级，之后加分、点名、计时直接开始。</p></div>
     </div>
-    <div class="note">升级新版本不会清除数据：积分记录保存在用户目录，安装覆盖与卸载都不会删除。清空、彻底分班等操作需要 U 盘密钥确认。</div>
+    <div class="note">不提供任何公开下载链接。如需新版本，请直接联系管理员或本班老师获取；升级覆盖安装不会清除数据，清空、彻底分班等操作需要 U 盘密钥确认。</div>
   </div>
 </section>
 
@@ -378,9 +379,9 @@ footer{border-top:1px solid var(--line); padding:44px 0 60px; margin-top:40px}
   <div class="wrap foot">
     <div>© 2026 FileOS · 西光中学 · 王俊迪 / 刘梓熠</div>
     <div class="foot-links">
-      <a href="https://github.com/git-wjd-xgzx/FileOS" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://github.com/git-wjd-xgzx/FileOS/releases" target="_blank" rel="noopener">版本更新</a>
-      <a href="https://git-wjd-xgzx.github.io/fileos-web/" target="_blank" rel="noopener">网页版</a>
+      <a href="#features">功能</a>
+      <a href="#styles">界面</a>
+      <a href="#download">获取方式</a>
     </div>
   </div>
 </footer>
